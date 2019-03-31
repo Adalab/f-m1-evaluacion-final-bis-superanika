@@ -3,6 +3,10 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $color-white;
 }
 .header {
     max-width: 155px;

@@ -1,0 +1,27 @@
+.main_content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../images/david-van-dijk-255503-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    @media all and (min-width: 768px) {
+        padding-left: 30px;
+    }
+    @media all and (min-width: 1024px) {
+        padding-left: 30px;
+    }
+}
+.title {
+    @include title();
+    color: $color-white;
+    text-transform: uppercase;
+    width: 161px;
+    @media all and (min-width: 768px) {
+        font-size: 60px;
+        width: 322px;
+    }
+
+}

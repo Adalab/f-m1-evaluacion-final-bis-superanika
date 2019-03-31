@@ -1,0 +1,27 @@
+.footer {
+    height: 90px;
+    background-color: $color-dark;
+}
+.copy {
+    @include text();
+    color: $color-medium;
+    text-align: center;
+    margin: 0;
+    padding-top: 34px;
+}
+.button {
+    @include chat();
+    display: block;
+    width: 69px;
+    height: 34px;
+    background-color: $color-button;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 17px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 20px;
+    bottom: 73px;
+    z-index: 1;
+}

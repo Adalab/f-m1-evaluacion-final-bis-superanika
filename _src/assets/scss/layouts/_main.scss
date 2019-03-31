@@ -22,7 +22,7 @@
 .title {
     @include title();
     color: $color-white;
-    text-transform: uppercase;
+    text-transform: capitalize;
     width: 161px;
     @media all and (min-width: 768px) {
         font-size: 60px;

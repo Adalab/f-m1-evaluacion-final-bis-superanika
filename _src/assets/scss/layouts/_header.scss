@@ -31,18 +31,24 @@
         margin: 0;
     }
 }
-.menu_link {
-    @include text();
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $color-text;
-}
+
 .logo_adalab {
     height: 60px;
     width: 155px;
     padding: 10px 0;
     @media all and (min-width: 768px) {
         padding: 20px 0;
+    }
+}
+.menu_link {
+    @include text();
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-text;
+    transition: color linear .5s, text-decoration linear .5s;
+    &:hover {
+        color: $color-secundary;
+        text-decoration: underline;
     }
 }
 .blog {
